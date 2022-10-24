@@ -1,0 +1,87 @@
+rest_type,counts,rest_type_new
+indonesian,1644,indonesian
+coffee,1370,coffee
+japanese,718,asian
+western,675,western
+desserts,658,desserts
+beverages,624,beverages
+chinese,614,asian
+jawa,460,indonesia_traditional
+tea,389,tea
+asian,382,asian
+cafe,363,café
+italian,335,western
+bakery,331,bakery
+bakmi,328,noodle
+street food,251,street food
+fast food,202,fast food
+korean,194,asian
+seafood,190,seafood
+american,175,western
+soto,153,indonesia_traditional
+sushi,151,asian
+bakso,132,street food
+satay,128,street food
+bubble tea,126,street food
+healthy food,125,special_food
+snacks,117,snacks
+steak,106,western
+bbq,103,western
+grill,101,western
+ramen,97,asian
+burger,96,fast food
+betawi,96,indonesia_traditional
+padang,95,indonesia_traditional
+thai,95,asian
+pizza,94,western
+ice cream,90,snacks
+peranakan,87,asian
+dimsum,82,asian
+fusion,74,special_food
+sunda,68,indonesia_traditional
+european,61,western
+juices,60,drink
+singaporean,54,melayu
+manado,53,indonesia_traditional
+taiwanese,44,asian
+palembang,43,indonesia_traditional
+martabak,41,street food
+vietnamese,38,asian
+balinese,36,indonesia_traditional
+arabian,36,mid_east
+medan,35,indonesia_traditional
+finger food,32,snacks
+indian,31,india
+aceh,31,indonesia_traditional
+malaysian,28,melayu
+middle eastern,26,mid_east
+makassar,25,indonesia_traditional
+kebab,22,snacks
+french,22,snacks
+mediterranean,20,western
+sumatera,17,indonesia_traditional
+spanish,14,western
+mexican,12,western
+continental,12,western
+kalimantan,11,indonesia_traditional
+north indian,11,india
+bangka,9,indonesia_traditional
+batak,9,indonesia_traditional
+lombok,8,indonesia_traditional
+yogyakarta,8,indonesia_traditional
+belanda,7,western
+sulawesi,7,indonesia_traditional
+south american,6,others
+drinks only,5,drink
+turkish,5,western
+lebanese,5,western
+australian,5,western
+south indian,4,india
+german,3,western
+british,2,western
+mongolian,2,others
+pakistani,2,others
+greek,2,others
+peruvian,1,others
+portuguese,1,others
+moroccan,1,others
