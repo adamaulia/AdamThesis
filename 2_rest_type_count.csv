@@ -9,27 +9,27 @@ chinese,614,asian
 jawa,460,indonesia_traditional
 tea,389,tea
 asian,382,asian
-cafe,363,café
+cafe,363,cafe
 italian,335,western
 bakery,331,bakery
 bakmi,328,noodle
-street food,251,street food
-fast food,202,fast food
+street food,251,street_food
+fast food,202,fast_food
 korean,194,asian
 seafood,190,seafood
 american,175,western
 soto,153,indonesia_traditional
 sushi,151,asian
-bakso,132,street food
-satay,128,street food
-bubble tea,126,street food
+bakso,132,street_food
+satay,128,street_food
+bubble tea,126,street_food
 healthy food,125,special_food
 snacks,117,snacks
 steak,106,western
 bbq,103,western
 grill,101,western
 ramen,97,asian
-burger,96,fast food
+burger,96,fast_food
 betawi,96,indonesia_traditional
 padang,95,indonesia_traditional
 thai,95,asian
@@ -45,7 +45,7 @@ singaporean,54,melayu
 manado,53,indonesia_traditional
 taiwanese,44,asian
 palembang,43,indonesia_traditional
-martabak,41,street food
+martabak,41,street_food
 vietnamese,38,asian
 balinese,36,indonesia_traditional
 arabian,36,mid_east
