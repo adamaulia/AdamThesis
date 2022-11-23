@@ -12,6 +12,12 @@ from datetime import date
 from scipy.stats import skew
 from sklearn.model_selection import cross_validate
 from scipy import stats
+from sklearn.metrics import make_scorer
+
+
+def custom_pearson(y_pred, y_act):
+    score=stats.pearsonr(y_pred, y_act)[0]
+    return score
 
 def model_perform(X_train,y_train, X_test, y_test, model, name, verbose = 0 ):
     # train 
@@ -126,7 +132,10 @@ def bulk_train_k_fold(df_input, drop_column, target_column, dataset_name, rf_par
     X_train, X_test, y_train, y_test = train_test_split(df_input_scale.drop(target_column, axis=1), df_input_scale[target_column], test_size=0.12, random_state=42)
 
     # cross validation 
-    scoring = ['neg_mean_absolute_error','neg_mean_squared_error','r2']
+    # scoring = ['neg_mean_absolute_error','neg_mean_squared_error','r2']
+    scoring = {'neg_mean_absolute_error' : 'neg_mean_absolute_error','neg_mean_squared_error':'neg_mean_squared_error','r2':'r2','Pearson': make_scorer(custom_pearson, greater_is_better=True)}
+
+    
 
     if rf_param:
         regr = RandomForestRegressor(**rf_param)
