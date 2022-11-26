@@ -47,7 +47,7 @@ def model_perform(X_train,y_train, X_test, y_test, model, name, verbose = 0 ):
 
     return model, y_pred_test, y_pred_train, result 
 
-def show_error_pattern(y_pred, y_test):
+def show_error_pattern(y_pred, y_test, ax = None, title = None ):
     result_test = pd.DataFrame()
     result_test['score'] = y_pred
     result_test['type'] = 'predict'
@@ -60,10 +60,12 @@ def show_error_pattern(y_pred, y_test):
 
     df_result = pd.concat([result_test2,result_test])
 
-    sns.lineplot(data=df_result, x="idx", y='score', hue="type")
+    if ax :
+        sns.lineplot(data=df_result, x="idx", y='score', hue="type", ax= ax).set_title(title)
+    else :
+        sns.lineplot(data=df_result, x="idx", y='score', hue="type")
 
-
-def bulk_train(df_input, drop_column, target_column, dataset_name,  rf_param, xgb_param, svr_param, verbose = 0,):
+def bulk_train(df_input, drop_column, target_column, dataset_name,  rf_param, xgb_param, svr_param, verbose = 0):
 
     error_report = []
     model_dict = {}
